@@ -7,7 +7,14 @@ authors = [
     { name = "Jeevoski", email = "jeevangeorgejohn2@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+    "minsearch>=0.2.0",
+    "openai>=2.53.0",
+    "python-dotenv>=1.2.2",
+    "requests>=2.34.2",
+]
 
 [project.scripts]
 llm-project = "llm_project:main"
